@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/space-x-project/static/css/main.5d00d34a.css",
+    "main.js": "/space-x-project/static/js/main.6f267754.js",
+    "static/media/background-image.jpg": "/space-x-project/static/media/background-image.7615859f6a7a1a024e04.jpg",
+    "static/media/museosanscyrl-500.ttf": "/space-x-project/static/media/museosanscyrl-500.c3622b581e522596d16e.ttf",
+    "static/media/button-frame.svg": "/space-x-project/static/media/button-frame.61dffc9f74817dfe018a.svg",
+    "index.html": "/space-x-project/index.html",
+    "main.5d00d34a.css.map": "/space-x-project/static/css/main.5d00d34a.css.map",
+    "main.6f267754.js.map": "/space-x-project/static/js/main.6f267754.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d00d34a.css",
+    "static/js/main.6f267754.js"
+  ]
+}
