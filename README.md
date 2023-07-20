@@ -33,3 +33,5 @@
    ```
 
 4. Браузер автоматически откроет новую вкладку с адресом локального сервера http://localhost:3000/
+
+## [Деплой](https://alenaismagilova.github.io/space-x-project/)
