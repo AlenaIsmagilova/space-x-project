@@ -10,6 +10,7 @@
 
 - React v18.2
 - Typescript
+- ~Mobile friendly~ Adaptive Layout
 
 ## Установка и запуск в режиме разработки
 
