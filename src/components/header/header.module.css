@@ -39,6 +39,38 @@
   margin-right: 0;
 }
 
+.burgerButton {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  display: none;
+}
+
+.burgerButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.burgerButtonWrapper {
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  transition: all 0.5s;
+}
+
+.burgerButtonWrapper:nth-of-type(2) {
+  top: calc(50% - 5px);
+}
+.burgerButtonWrapper:nth-of-type(3) {
+  top: calc(50% + 5px);
+}
+
 @media screen and (max-width: 1279px) {
   .headerContainer {
     max-width: 1000px;
@@ -68,15 +100,13 @@
   }
 
   .headerContainer {
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
     box-sizing: border-box;
   }
 
   .linksContainer {
-    margin-top: 15px;
-    flex-direction: column;
+    display: none;
   }
 
   .item {
@@ -86,5 +116,9 @@
 
   .item:hover {
     text-underline-offset: 6px;
+  }
+
+  .burgerButton {
+    display: block;
   }
 }

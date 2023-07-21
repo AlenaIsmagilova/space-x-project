@@ -1,0 +1,61 @@
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 60px 0 0 20px;
+  margin: 0;
+  height: 100vh;
+}
+
+.item {
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 20px;
+  width: max-content;
+}
+
+.item:hover {
+  color: #b1b1b1;
+  cursor: pointer;
+  text-underline-offset: 12px;
+  text-decoration: underline;
+  text-decoration-color: #b1b1b1;
+  transition: all 0.3s ease;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.2;
+  cursor: pointer;
+  transition: opacity ease 0.5s;
+  color: #ffffff;
+}
+
+.closeIcon:hover {
+  opacity: 1;
+}
+
+.closeIcon::before,
+.closeIcon::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #ffffff;
+}
+
+.closeIcon::before {
+  transform: rotate(45deg);
+}
+
+.closeIcon::after {
+  transform: rotate(-45deg);
+}
